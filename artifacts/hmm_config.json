@@ -1,0 +1,26 @@
+{
+  "params": {
+    "beta": 20.0,
+    "emission_weight": 4.0,
+    "sp_limit_m": 2000.0,
+    "impossible_logp": -50.0,
+    "backward_tolerance_m": 5.0
+  },
+  "tuned_on": "12 held-out training trips (out-of-fold classifier probabilities)",
+  "held_out_trips": [
+    "00000008",
+    "00000010",
+    "00000019",
+    "00000037",
+    "00000048",
+    "00000053",
+    "00000063",
+    "00000075",
+    "00000088",
+    "00000093",
+    "00000096",
+    "00000097"
+  ],
+  "best_accuracy": 0.8697326815133385,
+  "classifier_only_accuracy": 0.8550700873974546
+}

@@ -1,0 +1,24 @@
+{
+  "sample_frac": 0.2,
+  "folds": 5,
+  "seed": 42,
+  "features": [
+    "dist_m",
+    "proj_t",
+    "dist_rank",
+    "n_cands",
+    "arc_length_m",
+    "heading_diff",
+    "heading_cos",
+    "heading_valid",
+    "speed_mps",
+    "dt_prev",
+    "dist_minus_min",
+    "dist_ratio",
+    "dist_prev_m",
+    "dist_next_m",
+    "connected_prev"
+  ],
+  "train_rows": 312663,
+  "test_rows": 177118
+}
