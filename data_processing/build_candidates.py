@@ -119,14 +119,14 @@ def process_trip(trip_dir, radius=RADIUS):
     # true_dist_m: how far the point is from its OWN reference arc.
     # reliable=0 means the reference route does not explain this point (route/GPS mismatch);
     # drop these rows from TRAINING (keep them for honest evaluation reporting).
-    df = pd.DataFrame(rows, columns=["trip_id", "point_idx", "t", "x", "y", "arc_id", "dist_m",
+    df = pd.DataFrame(rows, columns=["trip_id", "observation_id", "t", "x", "y", "arc_id", "dist_m",
                                      "proj_t", "dist_rank", "n_cands", "label",
                                      "true_dist_m", "reliable"])
     stats = dict(trip_id=tid, n_points=len(gx), n_route_arcs=len(route), n_arcs=len(arcs),
                  misses=misses, miss_rate=misses / len(gx),
                  mean_true_dist=float(true_dist.mean()), max_true_dist=float(true_dist.max()),
                  route_arcs_used=len(np.unique(route_pos)),
-                 mean_cands=df.groupby("point_idx").size().mean() if len(df) else 0)
+                 mean_cands=df.groupby("observation_id").size().mean() if len(df) else 0)
     return df, stats
 
 
