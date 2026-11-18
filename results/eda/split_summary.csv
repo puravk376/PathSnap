@@ -1,0 +1,4 @@
+,trips,gps_points,points_per_trip_median,points_per_trip_min,points_per_trip_max,hours_spanned_incl_gaps,track_km,arcs_total,arcs_per_trip_median,route_arcs_total,missing_values,bad_references,trips_with_gap_gt_60s,off_route_trips,pct_points_within_50m_of_route
+train,80,208417,1529.0,361,19313,126.23,2978.41,3876904,19526.5,31336,0,0,22,4,89.17
+student_test,10,19160,1420.0,262,3958,5.63,296.97,185041,13145.0,3477,0,0,1,0,99.86
+all,90,227577,1496.5,262,19313,131.86,3275.38,4061945,18761.5,34813,0,0,23,4,90.07
