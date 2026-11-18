@@ -1,0 +1,14 @@
+{
+  "best_params": {
+    "learning_rate": 0.029003682879946743,
+    "max_iter": 200,
+    "max_leaf_nodes": 41,
+    "min_samples_leaf": 84,
+    "l2_regularization": 0.0008006485160598909,
+    "max_features": 0.7021293784180956
+  },
+  "best_cv_top1": 0.8824729364211713,
+  "n_trials": 25,
+  "search_time_s": 387.50575940002454,
+  "objective": "mean GroupKFold Top-1 accuracy"
+}
