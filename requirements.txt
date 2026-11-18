@@ -1,0 +1,11 @@
+pandas
+numpy
+pyproj
+shapely
+scikit-learn
+lightgbm
+optuna
+folium
+fastapi
+uvicorn
+streamlit
