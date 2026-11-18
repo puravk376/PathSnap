@@ -1,0 +1,30 @@
+{
+  "features": [
+    "dist_m",
+    "proj_t",
+    "dist_rank",
+    "n_cands",
+    "arc_length_m",
+    "heading_diff",
+    "heading_cos",
+    "heading_valid",
+    "speed_mps",
+    "dt_prev",
+    "dist_minus_min",
+    "dist_ratio",
+    "dist_prev_m",
+    "dist_next_m",
+    "connected_prev"
+  ],
+  "do_not_use_as_features": [
+    "label",
+    "true_dist_m",
+    "reliable",
+    "trip_id",
+    "observation_id",
+    "arc_id",
+    "t",
+    "x",
+    "y"
+  ]
+}
