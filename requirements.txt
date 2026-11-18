@@ -9,3 +9,5 @@ folium
 fastapi
 uvicorn
 streamlit
+matplotlib
+joblib
